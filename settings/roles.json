@@ -1,0 +1,19 @@
+{
+    "SecurityRoles": [
+        {
+            "PostFixName": "Dev",
+            "SecurityGroup": "Developers",
+            "Description": "Security Group for Developers and Testers."
+        },
+        {
+            "PostFixName": "Adm",
+            "SecurityGroup": "Administration",
+            "Description": "Security Group for PO's and SM's."
+        },
+        {
+            "PostFixName": "Ops",
+            "SecurityGroup": "Operations",
+            "Description": "Security Group for Operations."
+        }
+    ]
+}

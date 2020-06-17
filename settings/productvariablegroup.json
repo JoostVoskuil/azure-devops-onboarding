@@ -1,0 +1,12 @@
+{
+    "description": "Product variable group.",
+    "name": "",
+    "variables":  
+    {    
+        "koetjeboe": {
+            "isReadOnly": true,
+            "isSecret": false,
+            "value": "Blaaaa3"
+        }
+    }
+}

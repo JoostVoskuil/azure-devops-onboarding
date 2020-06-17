@@ -1,0 +1,12 @@
+{
+    "description": "Variables used for our Organization.",
+    "name": "Organization settings",
+    "variables":  
+    {    
+        "koetjeboe": {
+            "isReadOnly": true,
+            "isSecret": false,
+            "value": "Blaaaa3"
+        }
+    }
+}

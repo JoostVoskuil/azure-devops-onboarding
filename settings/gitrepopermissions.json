@@ -1,0 +1,74 @@
+[
+    {
+        "GroupScope": "ProjectGroup",
+        "Group": "Project Administrators",
+        "Merge": false,
+        "ExtraNotes": "This sets the use permission for all builds.",
+        "Allow": [
+            "GenericRead",
+            "CreateBranch",
+            "CreateRepository",
+            "DeleteRepository",
+            "EditPolicies",
+            "RenameRepository",
+            "RemoveOthersLocks",
+            "GenericContribute",
+            "CreateTag",
+            "ManageNote",
+            "ForcePush",
+            "PolicyExempt",
+            "PullRequestBypassPolicy",
+            "ManagePermissions",
+            "PullRequestContribute"
+        ]
+    },
+    {
+        "GroupScope": "ProjectGroup",
+        "Group": "Contributors",
+        "Merge": false,
+        "ExtraNotes": "This sets the use permission for all builds.",
+        "Allow": [
+            "GenericRead"
+        ],
+        "Deny": [
+            "CreateBranch",
+            "CreateRepository",
+            "DeleteRepository",
+            "EditPolicies",
+            "RenameRepository",
+            "RemoveOthersLocks",
+            "GenericContribute",
+            "CreateTag",
+            "ManageNote",
+            "ForcePush",
+            "PolicyExempt",
+            "PullRequestBypassPolicy",
+            "ManagePermissions",
+            "PullRequestContribute"
+        ]
+    },
+    {
+        "GroupScope": "Group",
+        "Merge": false,
+        "ExtraNotes": "This takes the permissions from the root, no changes",
+        "Allow": [
+            "CreateBranch",
+            "CreateRepository",
+            "DeleteRepository",
+            "EditPolicies",
+            "RenameRepository",
+            "RemoveOthersLocks",
+            "GenericRead",
+            "GenericContribute",
+            "CreateTag",
+            "ManageNote",
+            "PullRequestContribute"
+        ],
+        "Deny": [
+            "ForcePush",
+            "PolicyExempt",
+            "PullRequestBypassPolicy",
+            "ManagePermissions"
+        ]
+    }
+]

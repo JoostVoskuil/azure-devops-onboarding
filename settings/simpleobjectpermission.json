@@ -1,0 +1,54 @@
+{
+    "Library": {
+        "OwnerRights": [
+            "Use",
+            "Administer"
+        ],
+        "ContributorRights": [
+            "View"
+        ]
+    },
+    "Dashboard": {
+        "OwnerRights": [
+            "Read",
+            "Edit"
+        ],
+        "ContributorRights": [
+            "Read"
+        ]
+    },
+    "ServiceConnection": {
+        "OwnerRights": [
+            "Use",
+            "ViewEndpoint",
+            "Administer"
+        ],
+        "ContributorRights": [
+            "ViewEndpoint"
+        ]
+    },
+    "Environment": {
+        "OwnerRights": [
+            "View",
+            "Manage",
+            "Administer",
+            "Use"
+        ],
+        "ContributorRights": [
+            "Read"
+        ]
+    },
+    "DeploymentGroup": {
+        "OwnerRights": [
+            "Use",
+            "Manage",
+            "Listen",
+            "View",
+            "Create",
+            "AdministerPermissions"
+        ],
+        "ContributorRights": [
+            "View"
+        ]
+    }
+}

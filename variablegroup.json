@@ -1,0 +1,20 @@
+{
+    "name": "Azure DevOps Onboarding",
+    "description": "Variable Group used for the Onboarding Extension",
+    "variables": {
+        "AZUREDEVOPS_PAT": {
+            "value": null,
+            "isSecret": true
+        },
+        "AZUREDEVOPS_PAT_OWNER": {
+            "value": "<owner principal name>"
+        },
+        "MS_GRAPH_APP_TOKEN": {
+            "value": null,
+            "isSecret": true
+        },
+        "TESTING": {
+            "value": "false"
+        }
+    }
+}

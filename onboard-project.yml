@@ -1,0 +1,18 @@
+name: $(Date:yyyyMMdd)-$(ProjectName)
+
+trigger:
+- none
+
+variables:
+- group: Azure DevOps Onboarding
+
+jobs:
+- job: Onboard
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - task: azure-devops-onboarding@0
+    inputs:
+      Action: 'onboardProject'
+      ProjectName: '$(ProjectName)'
+      Description: '$(Description)'

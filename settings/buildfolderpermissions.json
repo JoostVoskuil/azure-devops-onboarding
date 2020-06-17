@@ -1,0 +1,59 @@
+[
+    {
+        "GroupScope": "ProjectGroup",
+        "Group": "Contributors",
+        "Merge": false,
+        "ExtraNotes": "This sets the use permission for all builds.",
+        "Allow": [
+            "ViewBuilds",
+            "ViewBuildDefinition"
+        ],
+        "Deny": [
+            "EditBuildQuality",
+            "AdministerBuildPermissions",
+            "ManageBuildQualities",
+            "RetainIndefinitely",
+            "DeleteBuilds",
+            "DestroyBuilds",
+            "UpdateBuildInformation",
+            "QueueBuilds",
+            "StopBuilds",
+            "EditBuildDefinition",
+            "DeleteBuildDefinition",
+            "ManageBuildQueue",
+            "EditBuildDefinition",
+            "DeleteBuildDefinition",
+            "OverrideBuildCheckInValidation",
+            "EditBuildDefinition",
+            "EditBuildQuality"
+        ]
+    },
+    {
+        "GroupScope": "Group",
+        "Merge": false,
+        "ExtraNotes": "This takes the permissions from the root, no changes",
+        "Allow": [
+            "ViewBuilds",
+            "RetainIndefinitely",
+            "DeleteBuilds",
+            "DestroyBuilds",
+            "UpdateBuildInformation",
+            "QueueBuilds",
+            "StopBuilds",
+            "ViewBuildDefinition",
+            "EditBuildDefinition",
+            "DeleteBuildDefinition",
+            "ManageBuildQueue",
+            "EditBuildDefinition",
+            "DeleteBuildDefinition",
+            "OverrideBuildCheckInValidation",
+            "EditBuildDefinition"
+        ],
+        "Deny": [
+            "EditBuildQuality",
+            "AdministerBuildPermissions",
+            "OverrideBuildCheckInValidation",
+            "ManageBuildQualities"
+        ]
+    }
+]

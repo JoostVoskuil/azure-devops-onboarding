@@ -1,0 +1,47 @@
+[
+    {
+        "GroupScope": "ProjectGroup",
+        "Group": "Contributors",
+        "Merge": false,
+        "ExtraNotes": "This sets the use permission for all builds.",
+        "Allow": [
+            "ViewReleaseDefinition",
+            "ViewReleases"
+        ],
+        "Deny": [
+            "AdministerReleasePermissions",
+            "EditReleaseDefinition",
+            "DeleteReleaseDefinition",
+            "ManageReleaseApprovers",
+            "ManageReleases",
+            "CreateReleases",
+            "EditReleaseEnvironment",
+            "DeleteReleaseEnvironment",
+            "DeleteReleases",
+            "ManageDeployments",
+            "ManageReleaseSettings"
+        ]
+    },
+    {
+        "GroupScope": "Group",
+        "Merge": false,
+        "ExtraNotes": "This takes the permissions from the root, no changes",
+        "Allow": [
+            "ViewReleaseDefinition",
+            "EditReleaseDefinition",
+            "DeleteReleaseDefinition",
+            "ManageReleaseApprovers",
+            "ManageReleases",
+            "ViewReleases",
+            "CreateReleases",
+            "EditReleaseEnvironment",
+            "DeleteReleaseEnvironment",
+            "DeleteReleases",
+            "ManageDeployments",
+            "ManageReleaseSettings"
+        ],
+        "Deny": [
+            "AdministerReleasePermissions"
+        ]
+    }
+]
